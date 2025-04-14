@@ -1,0 +1,21 @@
+services:
+  node:
+    container_name: pro3-node
+    restart: unless-stopped
+    command: 'tail -f /dev/null'
+    image: pro3/node
+    build:
+      context: ./_ops/services/node
+      dockerfile: ./Dockerfile
+    # networks:
+    #   - hello_proxy
+    ports:
+      - 80:80
+      - 443:433
+      - 8080:8080
+    volumes:
+      - ./app:/app
+      - ./_ops/services/node/files/.env:/app/.env
+
+# networks:
+#   hello_proxy
