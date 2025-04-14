@@ -9,10 +9,11 @@ COPY files/.env .env
 # RUN chmod +x /entrypoint.sh
 
 RUN apt-get update &&\
-    apt-get install -g --no-install-recommends\
+    apt-get install -y --no-install-recommends\
     ca-certificates 
 
 RUN npm install -g pnpm
+#RUN pnpm install
 
 ENTRYPOINT ["/scripts/entrypoint.sh"]
 
