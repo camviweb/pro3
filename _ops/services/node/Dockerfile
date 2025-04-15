@@ -7,7 +7,6 @@ RUN apt-get update && \
     ca-certificates 
 
 RUN npm install -g pnpm
-#RUN pnpm install
 
 COPY ./services/node/scripts/entrypoint.sh /scripts/entrypoint.sh
 RUN chmod +x /scripts/entrypoint.sh

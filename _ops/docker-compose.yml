@@ -6,16 +6,9 @@ services:
     build:
       context: .
       dockerfile: ./services/node/Dockerfile
-    # networks:
-    #   - hello_proxy
     ports:
       - 80:80
-      # - 443:433
-      # - 8080:8080
     volumes:
       - ../app:/home/node/app
     env_file:
       - ./services/node/files/.env
-
-# networks:
-#   hello_proxy:
