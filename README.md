@@ -1,6 +1,6 @@
 # Groupe Ewa Lobodzinska et Câm-Vi Nguyen
 
-## TD - Atelier DevOps animé par Nicolas Lebacq
+## TD - Atelier DevOps animé par [Nicolas Lebacq](https://github.com/SmashingQuasar)
 
 ## Prérequis 
 - [ ] Lancer Docker Desktop
