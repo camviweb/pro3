@@ -18,4 +18,5 @@ services:
       - ./services/node/files/.env
 
 # networks:
-#   hello_proxy
+#   hello_proxy:
+  # name: hello_proxy ?
