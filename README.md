@@ -31,6 +31,6 @@ Vous devriez obtenir :
 ![Résultat -down](/img/down.PNG)
 
 ## Problèmes rencontrés et solutions
-![Erreur](/img/error1.PNG)
+![Erreur](/img/error1.PNG)  
 Erreur : Le fichier a des fins de lignes Windows (CRLF) au lieu de celles attendues sous Linux (LF).  
 Solution : Dans Visual Studio Code, faire `Ctrl + A` et changer **CRLF** en bas à droite en **LF**
